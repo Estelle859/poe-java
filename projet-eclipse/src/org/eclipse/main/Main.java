@@ -163,6 +163,7 @@ public class Main {
 		userService.updateUser(newUser );
 		System.out.println("finding a user by id");	
 		System.out.println(userService.findByIdUser(1));	
+		//tester les methodes de commande service
 			
 			
 		
