@@ -10,6 +10,7 @@ import org.eclipse.model.Produit;
 import org.eclipse.model.Utilisateur;
 import org.eclipse.model.Vendeur;
 import org.eclipse.model.Client;
+import org.eclipse.service.CommandeService;
 import org.eclipse.service.ProduitService;
 import org.eclipse.service.UtilisateurService;
 
@@ -164,6 +165,7 @@ public class Main {
 		System.out.println("finding a user by id");	
 		System.out.println(userService.findByIdUser(1));	
 		//tester les methodes de commande service
+		CommandeService commandeSevice = new CommandeService();
 			
 			
 		
