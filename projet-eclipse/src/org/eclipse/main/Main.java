@@ -166,7 +166,8 @@ public class Main {
 		System.out.println(userService.findByIdUser(1));	
 		//tester les methodes de commande service
 		CommandeService commandeSevice = new CommandeService();
-		LigneCommandeService lignecommandeService = new LigneCommandeService();
+		LigneCommandeService lcs = new LigneCommandeService();
+		lcs.saveLigeCommande();
 			
 			
 		
