@@ -20,7 +20,7 @@ public class Main {
 
 	public static void main(String[] args) {
 		
-		System.out.println("Tapez 1.si vous êtes Vendeur 2.si vous êtes Client 3.Quit");
+		System.out.println("Tapez 1.si vous Ãªtes Vendeur 2.si vous Ãªtes Client 3.Quit");
 		ProduitService ps = new ProduitService();
 		Produit p1 = new Produit(1, "Acer Aspire 5 Slim Laptop" , 359, 5, "https://images-na.ssl-images-amazon.com/images/I/71vvXGmdKWL._AC_SL1500_.jpg");
 		Produit p2 = new Produit(2, "Toshiba TF-55A810U21 55-inch ",260,8,"https://images-na.ssl-images-amazon.com/images/I/61xU%2BHbHJyL._AC_SL1000_.jpg");
@@ -166,6 +166,7 @@ public class Main {
 		System.out.println(userService.findByIdUser(1));	
 		//tester les methodes de commande service
 		CommandeService commandeSevice = new CommandeService();
+		LigneCommandeService lignecommandeService = new LigneCommandeService();
 			
 			
 		
